@@ -1,0 +1,87 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #34495E;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #F5B041;
+  border-radius: 0;
+  border: 2px solid #000000;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-left: 0;
+
+}
+
+.navbar-brand a h1 { /*Brand name*/
+  font-family: 'Lora', serif;
+  color: #34495E;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  float: left;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.nav > li > a {
+  border: 1px solid black;
+  font-family: lora , serif;
+  font-weight: 600;
+  text-align: center;
+  background-color: #AEB6BF;
+  color:#2874A6;
+}
+
+.nav > li > a:hover {
+  background-color: #424949 ;
+}
+
+/* body */
+
+#page-heading h3 {
+  font-family:'Lora', serif;
+  color:#F5B041;
+
+}
+
+section {
+  border: 0 ;
+  background-color:#F5B041;
+  height: 500px;
+  color: white;
+  margin: 20px 20px;
+  position: relative;
+}
+
+section h3{
+  color:#34495E;
+  font-weight: bold;
+  font-size: 1.5em; 
+}
+
+section  p {
+  color: #7B241C ;
+  position: relative;
+  font-style: italic;
+  padding-left: 10px;
+  padding right: 10px;
+  font-family: lora , serif;
+  font-weight: 500;
+  
+}
+.btt {
+  position: absolute;
+  bottom: 0;
+}
